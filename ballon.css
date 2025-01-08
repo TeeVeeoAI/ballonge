@@ -1,0 +1,19 @@
+body{
+    background: #333;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ballon{
+    font-size: 100px;
+}
+
+.size{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 100px;
+}
