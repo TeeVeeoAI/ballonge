@@ -61,7 +61,7 @@ function DarkAndLightMode(){
 
 function ChangeSize(){
     let newSize = document.getElementById('inSize').value;
-    newSize = parseInt(newSize);
+
     while (newSize % 10 != 0){
         newSize--;
     }
