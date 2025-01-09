@@ -9,11 +9,15 @@
 <body>
     <script src="ballon.js"></script>
 
-    <div class="ballon" id="ballon" onclick="Bigger()">🎈</div>
+    <div class="ballon" id="ballon" onclick="Bigger('100', false)">🎈</div>
 
     <div id="size" class="size">Size: 100px</div>
 
-    <button id="button" onclick="DarkAndLightMode()">Light Mode</button>
+    <button id="darkAndLight" onclick="DarkAndLightMode()">Light Mode</button>
+
+    <button id="inSizeBtn" onclick="ChangeSize()">Submit</button>
+    <label for="inSize">Change size:</label>
+    <input type="text" name="inSize" id="inSize" class="inSize">
 
 </body>
 </html>

@@ -1,6 +1,6 @@
 :root{
     --main-color: #111;
-    --text-color: #FFF;
+    --text-color: #EEE;
 }
 
 body, html{
@@ -28,9 +28,40 @@ body, html{
 
 button{
     position: absolute;
-    right: 10px;
-    top: 10px;
     width: 100px;
     aspect-ratio: 16/9;
     font-size: 2em;
+}
+
+#darkAndLight{
+    right: 10px;
+    top: 10px;
+}
+
+#inSizeBtn{
+    right: 10px;
+    bottom: 60px;
+}
+
+input{
+    width: 100px;
+    aspect-ratio: 10/1;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: var(--text-color);
+    background: var(--main-color);
+    border: 5px ridge var(--main-color);
+    &:hover, &:focus{
+        border: 5px groove var(--main-color);
+    }
+}
+
+label{
+    width: 100px;
+    aspect-ratio: 10/1;
+    position: absolute;
+    right: 10px;
+    bottom: 35px;
+    color: var(--text-color);
 }
