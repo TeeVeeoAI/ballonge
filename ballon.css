@@ -28,7 +28,7 @@ body, html{
 
 button{
     position: absolute;
-    width: 100px;
+    width: 110px;
     aspect-ratio: 16/9;
     font-size: 2em;
 }
